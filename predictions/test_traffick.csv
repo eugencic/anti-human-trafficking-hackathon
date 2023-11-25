@@ -1,0 +1,38 @@
+region_id,region_name,demographics,economic_conditions,previous_trafficking_incidents,social_factors,airport,train_station,seaport,bus_station
+1,Anenii Noi,50000,Poor,3,Low,0,1,0,1
+2,Basarabeasca,35000,Moderate,5,Moderate,1,0,1,0
+3,Balti,120000,Good,8,High,0,1,0,1
+4,Briceni,25000,Very Poor,2,Low,1,0,1,1
+5,Cahul,45000,Poor,6,Moderate,0,1,0,0
+6,Cantemir,30000,Moderate,4,Moderate,1,1,1,0
+7,Calarasi,28000,Excellent,7,High,0,0,0,1
+8,Causeni,32000,Good,2,Low,1,1,0,1
+9,Chisina?u,700000,Moderate,10,High,0,1,1,0
+10,Cimislia,20000,Poor,5,High,1,0,0,1
+11,Comrat,18000,Moderate,1,Moderate,0,1,0,1
+12,Criuleni,22000,Very Poor,4,High,1,1,1,0
+13,Donduseni,28000,Good,6,Low,0,0,1,0
+14,Drochia,30000,Excellent,3,Moderate,1,1,0,1
+15,Dubasari,25000,Moderate,7,High,0,0,1,0
+16,Edinet,35000,Poor,5,Low,1,1,0,1
+17,Falesti,40000,Good,2,High,0,1,0,1
+18,Floresti,45000,Moderate,8,Moderate,1,0,1,0
+19,Glodeni,28000,Very Poor,4,High,0,1,0,1
+20,Hancesti,32000,Excellent,1,Low,1,1,0,1
+21,Ialoveni,55000,Poor,6,High,0,0,1,0
+22,Leova,24000,Good,3,Low,1,1,0,1
+23,Nisporeni,28000,Moderate,7,High,0,0,1,0
+24,Ocnita,18000,Very Poor,5,Moderate,1,1,0,1
+25,Orhei,40000,Poor,2,Low,0,1,1,0
+26,Rezina,30000,Good,4,High,1,0,1,0
+27,Rascani,35000,Moderate,8,High,0,1,0,1
+28,Sangerei,42000,Very Poor,1,Moderate,1,1,1,0
+29,Soroca,25000,Excellent,7,Low,0,0,1,0
+30,Straseni,28000,Poor,4,Moderate,1,1,0,1
+31,Soldanesti,22000,Good,2,High,0,1,0,1
+32,Stefan Voda,30000,Moderate,6,Moderate,1,1,1,0
+33,Taraclia,35000,Poor,3,High,0,0,1,0
+34,Telenesti,40000,Very Poor,1,Low,1,1,0,1
+35,Tighina,28000,Moderate,5,Moderate,0,1,0,1
+36,Tiraspol,55000,Excellent,4,High,1,0,1,0
+37,Ungheni,28000,Poor,2,Moderate,0,1,0,1

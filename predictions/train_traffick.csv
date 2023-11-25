@@ -1,0 +1,100 @@
+region_id,region_name,demographics,economic_conditions,previous_trafficking_incidents,social_factors,airport,train_station,seaport,bus_station,chance_of_human_trafficking
+1,Anenii Noi,50000,Moderate,5,High,0,1,0,1,0.15
+2,Basarabeasca,35000,Poor,2,Low,0,1,0,1,0.08
+3,Balti,120000,Good,8,Moderate,0,1,0,1,0.25
+4,Briceni,25000,Very Poor,1,High,0,1,0,1,0.05
+5,Cahul,45000,Moderate,4,Low,0,1,1,1,0.12
+6,Cantemir,30000,Poor,3,Moderate,0,1,0,1,0.18
+7,Calarasi,28000,Good,6,High,0,1,0,1,0.20
+8,Causeni,32000,Very Poor,1,Low,0,0,0,1,0.07
+9,Chisinau,700000,Excellent,12,High,1,1,0,1,0.30
+10,Cimislia,20000,Moderate,4,Moderate,0,1,0,1,0.14
+11,Comrat,18000,Poor,2,Low,0,0,0,1,0.10
+12,Criuleni,22000,Very Poor,1,Moderate,0,1,0,1,0.06
+13,Donduseni,28000,Good,7,High,0,1,0,1,0.22
+14,Drochia,30000,Poor,3,Low,0,0,0,1,0.11
+15,Dubasari,25000,Moderate,5,Moderate,0,1,0,1,0.16
+16,Edinet,35000,Very Poor,2,High,0,1,0,1,0.09
+17,Falesti,40000,Good,6,Low,0,1,0,1,0.21
+18,Floresti,45000,Poor,4,Moderate,0,1,0,1,0.13
+19,Glodeni,28000,Moderate,5,High,0,1,0,1,0.17
+20,Hancesti,32000,Very Poor,1,Low,0,0,0,1,0.08
+21,Ialoveni,55000,Good,8,Moderate,0,1,0,1,0.26
+22,Leova,24000,Poor,3,High,0,1,0,1,0.14
+23,Nisporeni,28000,Moderate,4,Low,0,1,0,1,0.10
+24,Ocnita,18000,Very Poor,1,Moderate,0,0,0,1,0.05
+25,Orhei,40000,Good,7,High,0,1,0,1,0.23
+26,Rezina,30000,Moderate,5,Low,0,0,0,1,0.16
+27,Rascani,35000,Poor,2,Moderate,0,1,0,1,0.12
+28,Sangerei,42000,Good,8,High,0,1,0,1,0.27
+29,Soroca,25000,Very Poor,1,Low,0,0,0,1,0.06
+30,Straseni,28000,Moderate,4,High,0,1,0,1,0.19
+31,Soldanesti,22000,Poor,3,Moderate,0,0,0,1,0.11
+32,Stefan Voda,30000,Good,6,High,0,1,0,1,0.24
+33,Taraclia,35000,Moderate,5,Low,0,1,0,1,0.15
+34,Telenesti,40000,Very Poor,1,High,0,1,0,1,0.08
+35,Tighina,28000,Moderate,4,Moderate,0,1,0,1,0.14
+36,Tiraspol,55000,Poor,2,Low,0,0,0,1,0.10
+37,Ungheni,28000,Good,7,High,0,1,0,1,0.25
+38,Bangkok,8500000,Moderate,15,High,1,1,0,1,0.28
+39,Sydney,5000000,Good,10,Moderate,1,0,1,1,0.18
+40,Rio de Janeiro,7000000,Moderate,12,High,1,1,0,1,0.24
+41,Mexico City,9000000,Poor,8,Low,1,1,0,1,0.15
+42,New York City,8500000,Excellent,5,Low,1,1,0,1,0.12
+43,Paris,2200000,Good,6,Moderate,1,1,0,1,0.20
+44,London,8000000,Excellent,4,High,1,1,0,1,0.10
+45,Mumbai,12000000,Moderate,18,High,1,1,0,1,0.32
+46,Cairo,9500000,Poor,11,Low,1,1,0,1,0.22
+47,Tokyo,14000000,Excellent,7,Moderate,1,1,0,1,0.14
+48,Seoul,10000000,Moderate,9,High,1,1,0,1,0.25
+49,S?o Paulo,12000000,Poor,14,Low,1,0,1,1,0.30
+50,Los Angeles,4000000,Good,8,Moderate,1,1,0,1,0.16
+51,Beijing,21500000,Good,11,Moderate,1,1,0,1,0.19
+52,Delhi,30000000,Poor,15,Low,1,0,1,1,0.27
+53,Istanbul,16000000,Moderate,8,High,1,1,0,1,0.14
+54,Singapore,6000000,Excellent,5,High,1,1,0,1,0.12
+55,Johannesburg,5000000,Moderate,10,Low,1,0,1,1,0.20
+56,Berlin,3500000,Good,6,Moderate,1,1,0,1,0.18
+57,Moscow,12500000,Poor,9,High,1,1,0,1,0.25
+58,Sao Paulo,21000000,Moderate,14,Low,1,0,1,1,0.30
+59,Montreal,4000000,Excellent,7,Moderate,1,1,0,1,0.16
+60,Lagos,21000000,Poor,12,High,1,1,0,1,0.24
+61,Shanghai,24000000,Good,8,Low,1,0,1,1,0.15
+62,Mexico City,9000000,Moderate,13,High,1,1,0,1,0.22
+63,Dubai,3000000,Excellent,6,High,1,1,0,1,0.14
+64,Vancouver,2500000,Good,9,Moderate,1,1,0,1,0.25
+65,Oslo,700000,Moderate,4,High,1,1,0,1,0.10
+66,Buenos Aires,13000000,Poor,7,Low,1,0,1,1,0.15
+67,Kuala Lumpur,8000000,Excellent,10,High,1,1,0,1,0.18
+68,Amsterdam,1700000,Moderate,5,Moderate,1,1,0,1,0.16
+69,Lima,10000000,Good,12,Moderate,1,0,1,1,0.20
+70,Miami,5000000,Poor,9,Low,1,1,0,1,0.20
+71,Stockholm,1000000,Good,6,Moderate,1,1,0,1,0.18
+72,Lisbon,2500000,Moderate,4,High,1,1,0,1,0.14
+73,Hanoi,8000000,Excellent,7,Low,1,0,1,1,0.17
+74,Athens,3500000,Moderate,9,Moderate,1,1,0,1,0.22
+75,Montevideo,1500000,Good,5,High,1,1,0,1,0.19
+76,Guangzhou,20000000,Poor,12,Low,1,0,1,1,0.28
+77,Barcelona,5500000,Excellent,8,High,1,1,0,1,0.25
+78,Kolkata,4500000,Moderate,10,Low,1,0,1,1,0.20
+79,Nairobi,6000000,Poor,6,Moderate,1,1,0,1,0.18
+80,Amman,4000000,Good,7,Moderate,1,0,1,1,0.21
+81,Seville,700000,Moderate,5,Moderate,1,1,0,1,0.18
+82,Toronto,2800000,Good,7,Moderate,1,1,0,1,0.21
+83,Marrakech,1000000,Poor,3,Low,1,0,1,1,0.11
+84,Santiago,6000000,Excellent,10,High,1,1,0,1,0.26
+85,Kiev,3000000,Moderate,8,Low,1,1,0,1,0.16
+86,Brussels,1200000,Good,6,High,1,1,0,1,0.19
+87,Prague,1300000,Poor,2,Moderate,1,1,0,1,0.08
+88,Auckland,1500000,Excellent,5,Moderate,1,0,1,1,0.16
+89,Manila,13000000,Moderate,13,High,1,1,0,1,0.24
+90,Stockholm,1000000,Good,6,Moderate,1,1,0,1,0.18
+91,Lisbon,2500000,Moderate,4,High,1,1,0,1,0.14
+92,Hanoi,8000000,Excellent,7,Low,1,0,1,1,0.17
+93,Athens,3500000,Moderate,9,Moderate,1,1,0,1,0.22
+94,Montevideo,1500000,Good,5,High,1,1,0,1,0.19
+95,Guangzhou,20000000,Poor,12,Low,1,0,1,1,0.28
+96,Barcelona,5500000,Excellent,8,High,1,1,0,1,0.25
+97,Kolkata,4500000,Moderate,10,Low,1,0,1,1,0.20
+98,Nairobi,6000000,Poor,6,Moderate,1,1,0,1,0.18
+99,Amman,4000000,Good,7,Moderate,1,0,1,1,0.21
