@@ -154,9 +154,9 @@ def start():
         user_results.append((user_datum["text"], user_datum["region"], risk_level, probability))
 
     # Print unique topics
-    # print("\nUnique Topics:")
-    # for topic in unique_lda_topics:
-    #     print(f" - {topic}")
+    print("\nIdentified Topics:")
+    for topic in unique_lda_topics:
+        print(f" - {topic}")
 
     # Print results after the loop
     for result in user_results:

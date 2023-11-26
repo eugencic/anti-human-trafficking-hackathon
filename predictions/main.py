@@ -5,11 +5,10 @@ from sklearn.metrics import mean_squared_error
 # from tensorflow.python.keras.models import Sequential
 # from tensorflow.python.keras.layers import Dense
 import tensorflow as tf
+from tensorflow import keras
 from keras.models import Sequential
 from keras.layers import Dense
 import matplotlib.pyplot as plt
-
-from tensorflow import keras
 
 
 tf.random.set_seed(
@@ -19,13 +18,9 @@ tf.keras.utils.set_random_seed(
     1
 )
 
-# Load the dataset
 df_train_traffick = pd.read_csv('train_traffick.csv')
-# Load the dataset
 df_test_traffick = pd.read_csv('test_traffick.csv')
 
-
-# Define a mapping for region_name to chance_of_human_trafficking
 region_mapping = {
     'Anenii Noi': 0.15,
     'Basarabeasca': 0.08,
@@ -66,10 +61,8 @@ region_mapping = {
     'Ungheni': 0.25
 }
 
-# Update the chance_of_human_trafficking column based on region_name
 df_train_traffick.loc[df_train_traffick['region_name'].isin(region_mapping.keys()), 'chance_of_human_trafficking'] = df_train_traffick['region_name'].map(region_mapping)
 
-# Print the updated DataFrame
 print(df_train_traffick)
 
 selected_features_traffick = ['demographics','economic_conditions','previous_trafficking_incidents','social_factors','airport','train_station','seaport','bus_station', 'chance_of_human_trafficking']
@@ -80,17 +73,14 @@ df_selected_train_traffick['economic_conditions'] = df_selected_train_traffick['
 
 df_selected_train_traffick['social_factors'] = df_selected_train_traffick['social_factors'].map({'Low': 1, 'Moderate': 0.5, 'High': 0})
 
-# Task 3: Linear Regression with Scikit-Learn
 X_train = df_selected_train_traffick.drop('chance_of_human_trafficking', axis=1)
 y_train = df_selected_train_traffick['chance_of_human_trafficking']
 
-# Ordinary Least Squares
 model = LinearRegression()
 model.fit(X_train, y_train)
 y_predictions_train = model.predict(X_train)
 mse_train = mean_squared_error(y_train, y_predictions_train)
 print(f'Ordinary Least Squares: Mean Squared Error on Train Set: {mse_train}')
-
 
 df_test_traffick['economic_conditions'] = df_test_traffick['economic_conditions'].map({'Very Poor': 1, 'Poor': 0.75, 'Moderate': 0.5,'Good': 0.25, 'Excellent': 0})
 
@@ -98,17 +88,11 @@ df_test_traffick['social_factors'] = df_test_traffick['social_factors'].map({'Lo
 
 X_test = df_test_traffick[selected_features_traffick[:-1]]  # Exclude 'Chance of Admit' for testing
 
-# For Linear Regression
 y_predictions_test = model.predict(X_test)
 
-# Print or use the predictions for further analysis
 print("\nLinear Regression Predictions:")
 print(y_predictions_test)
 
-
-
-
-# Task 5: Neural Network with TensorFlow or PyTorch
 model_nn = Sequential()
 model_nn.add(Dense(units=64, activation='relu', input_dim=X_train.shape[1]))
 model_nn.add(Dense(units=1))
@@ -122,17 +106,13 @@ y_predictions_train_nn = model_nn.predict(X_train)
 mse_train_nn = mean_squared_error(y_train, y_predictions_train_nn)
 print(f'Mean Squared Error on Train Set (Neural Network): {mse_train_nn}')
 
-# For Neural Network
 y_predictions_test_nn = model_nn.predict(X_test)
 
-# Print the predictions for further analysis
 print("\nLinear Regression Predictions:")
 print(y_predictions_test)
 
-
 print("\nNeural Network Predictions:")
 print(y_predictions_test_nn)
-
 
 plt.figure(figsize=(10, 6))
 
